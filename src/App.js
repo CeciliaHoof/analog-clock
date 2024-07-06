@@ -1,7 +1,13 @@
-import Clock from './Clock';
+import Clock from "./Clock";
 
-import './styles.css';
+import "./styles.css";
 
 export default function App() {
-  return <Clock />;
+  return (
+    <div
+      className="wrapper"
+    >
+      <Clock />
+    </div>
+  );
 }
